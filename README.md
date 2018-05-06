@@ -16,7 +16,7 @@ npm install
 npm run start
 ```
 
-###### To bundle application into js file
+###### To bundle application for prod
 
 ```
 npm run build

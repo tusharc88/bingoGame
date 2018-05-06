@@ -1,3 +1,3 @@
 global.process.env = {
-  NODE_ENV: 'test'
-}
+  NODE_ENV: 'test',
+};
