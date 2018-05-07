@@ -1,5 +1,5 @@
 {
-  "name": "react-setup",
+  "name": "bingo-game",
   "sideEffects": false,
   "version": "1.0.0",
   "description": "Bingo Game Application",

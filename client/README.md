@@ -10,14 +10,6 @@ npm install
 
 ### Important commands
 
-###### To start server application on port 8080
-
-```
-cd ../server
-npm install
-npm run start
-```
-
 ###### To start client application on port 3000
 
 ```

@@ -1,0 +1,39 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint-config-airbnb",
+    "prettier",
+  ],
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "plugins": [
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+  },
+  "rules": {
+    "prettier/prettier": ["error", {"trailingComma": true, "singleQuote": true}],
+    "arrow-parens": [2, "as-needed"],
+    "arrow-body-style": [2, "as-needed"],
+    "comma-dangle": [2, "always-multiline"],
+    "import/imports-first": 0,
+    "import/newline-after-import": 0,
+    "import/no-extraneous-dependencies": [2, {"devDependencies": true}],
+    "import/no-named-as-default": 0,
+    "import/no-unresolved": 2,
+    "import/prefer-default-export": 0,
+    "indent": [2, 2, { "SwitchCase": 1 }],
+    "max-len": [2, 80, 4, { "ignoreStrings": true }],
+    "newline-per-chained-call": 0,
+    "no-confusing-arrow": 0,
+    "no-console": 1,
+    "no-underscore-dangle": 0,
+    "no-use-before-define": 0,
+    "prefer-template": 2,
+    "class-methods-use-this": 0
+  }
+}
