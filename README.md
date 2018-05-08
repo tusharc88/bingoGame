@@ -1,43 +1,48 @@
+
 # Bingo Game
 
-### How to Start
+### How to
+
+### Important commands
+
+###### Get source code
 
 ```
 git clone https://github.com/tusharc88/bingoGame.git
+cd bingoGame
+```
+
+###### Install server dependencies
+
+```
+cd bingoGame/server
+npm install
+```
+
+###### Install client dependencies
+
+```
 cd bingoGame/client
 npm install
 ```
 
-### Important commands
-
 ###### To start server application on port 8080
 
 ```
-cd ../server
-npm install
+cd bingoGame/server
 npm run start
 ```
 
 ###### To start client application on port 3000
 
 ```
+cd bingoGame/client
 npm run start
 ```
 
 ###### To bundle application for prod
 
 ```
+cd bingoGame/client
 npm run build
-```
-
-###### To run tests
-
-```
-npm run test
-```
-
-###### To watch for tests
-
-```
-npm run test:watch
 ```

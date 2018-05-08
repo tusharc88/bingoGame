@@ -1,14 +1,21 @@
 # Bingo Game
 
-### How to Start
+### How to
+
+### Important commands
+
+###### Get source code
 
 ```
 git clone https://github.com/tusharc88/bingoGame.git
 cd bingoGame/client
-npm install
 ```
 
-### Important commands
+###### Install dependencies
+
+```
+npm install
+```
 
 ###### To start client application on port 3000
 
@@ -33,3 +40,10 @@ npm run test
 ```
 npm run test:watch
 ```
+
+###### To run Storybooks
+
+```
+npm run storybook
+```
+Hit http://localhost:6006 to run Storybook.
