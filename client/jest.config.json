@@ -1,6 +1,9 @@
 {
   "moduleDirectories": ["node_modules", "src"],
-  "setupFiles": ["<rootDir>/internals/test/mocks/global.js"],
+  "setupFiles": [
+    "<rootDir>/internals/test/mocks/global.js",
+    "<rootDir>/internals/test/test-setup.js"
+  ],
   "moduleNameMapper": {
     ".*\\.(css|less|styl|scss|sass)$":
       "<rootDir>/internals/test/mocks/cssMock.js",

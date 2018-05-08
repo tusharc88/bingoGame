@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders with default props 1`] = `
+<styled.div
+  disabled={false}
+  isClicked={false}
+  onClick={[Function]}
+>
+  1
+</styled.div>
+`;
