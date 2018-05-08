@@ -11,6 +11,7 @@
     "test:watch": "cross-env NODE_ENV=text jest --config=jest.config.json --watchAll",
     "lint": "eslint src internals",
     "lint:css": "stylelint \"src/**/*.js\"",
+    "storybook": "cross-env NODE_ENV=development start-storybook -p 6006 -c internals/storybook",
     "precommit": "npm run lint && npm run lint:css && lint-staged"
   },
   "lint-staged": {
@@ -31,6 +32,12 @@
   },
   "homepage": "https://github.com/tusharc88/bingoGame#readme",
   "devDependencies": {
+    "@storybook/addon-actions": "^3.4.3",
+    "@storybook/addon-centered": "^3.4.3",
+    "@storybook/addon-info": "^3.4.3",
+    "@storybook/addon-knobs": "^3.4.3",
+    "@storybook/addon-storyshots": "^3.4.3",
+    "@storybook/react": "^3.4.3",
     "autoprefixer": "^8.4.1",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.3",
