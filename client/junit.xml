@@ -1,18 +1,18 @@
-<testsuites name="jest tests" tests="6" failures="0" time="0.09">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-09T04:30:10" time="0.052" tests="5">
-    <testcase classname=" Renders with default props" name=" Renders with default props" time="0.001">
+<testsuites name="jest tests" tests="6" failures="0" time="0.344">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-09T04:32:17" time="0.207" tests="5">
+    <testcase classname=" Renders with default props" name=" Renders with default props" time="0.003">
     </testcase>
     <testcase classname=" handleDisabled should return false when currentNumber is 1 and Cell number is 1" name=" handleDisabled should return false when currentNumber is 1 and Cell number is 1" time="0">
     </testcase>
-    <testcase classname=" handleDisabled should return true when currentNumber is 2 and Cell number is 1" name=" handleDisabled should return true when currentNumber is 2 and Cell number is 1" time="0">
+    <testcase classname=" handleDisabled should return true when currentNumber is 2 and Cell number is 1" name=" handleDisabled should return true when currentNumber is 2 and Cell number is 1" time="0.001">
     </testcase>
-    <testcase classname=" handleClick should toggle background color on clicking non disabled cell" name=" handleClick should toggle background color on clicking non disabled cell" time="0.006">
+    <testcase classname=" handleClick should toggle background color on clicking non disabled cell" name=" handleClick should toggle background color on clicking non disabled cell" time="0.005">
     </testcase>
-    <testcase classname=" handleClick should not toggle background color on clicking disabled cell" name=" handleClick should not toggle background color on clicking disabled cell" time="0.002">
+    <testcase classname=" handleClick should not toggle background color on clicking disabled cell" name=" handleClick should not toggle background color on clicking disabled cell" time="0.003">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-09T04:30:10" time="0.038" tests="1">
-    <testcase classname=" Renders with default props" name=" Renders with default props" time="0.003">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-09T04:32:17" time="0.137" tests="1">
+    <testcase classname=" Renders with default props" name=" Renders with default props" time="0.005">
     </testcase>
   </testsuite>
 </testsuites>
