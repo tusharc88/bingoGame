@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders with default props 1`] = `
+<styled.div>
+  <GridRow
+    key="0"
+    matrixNum={5}
+    rowNum={0}
+  />
+  <GridRow
+    key="1"
+    matrixNum={5}
+    rowNum={1}
+  />
+  <GridRow
+    key="2"
+    matrixNum={5}
+    rowNum={2}
+  />
+  <GridRow
+    key="3"
+    matrixNum={5}
+    rowNum={3}
+  />
+  <GridRow
+    key="4"
+    matrixNum={5}
+    rowNum={4}
+  />
+</styled.div>
+`;

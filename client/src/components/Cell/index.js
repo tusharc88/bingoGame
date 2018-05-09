@@ -5,6 +5,7 @@ import styled from 'styled-components';
 const CellWrapper = styled.div`
   height: 40px;
   width: 40px;
+
   background-color: ${props => (props.isClicked ? '#3ecedf' : '#d7d3d2')};
   color: ${props => (props.isClicked ? '#ffffff' : '#393838')};
   font-size: 25px;
