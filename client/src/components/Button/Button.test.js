@@ -10,15 +10,7 @@ test('Renders with default props', () => {
 
 test('Renders with onClick prop', () => {
   const tree = renderer
-    .create(
-      <Button
-        onClick={() => {
-          console.log('Clicked');
-        }}
-      >
-        Click Me
-      </Button>
-    )
+    .create(<Button onClick={() => {}}>Click Me</Button>)
     .toJSON();
 
   expect(tree).toMatchSnapshot();
