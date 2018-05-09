@@ -1,6 +1,6 @@
-<testsuites name="jest tests" tests="6" failures="0" time="0.344">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-09T04:32:17" time="0.207" tests="5">
-    <testcase classname=" Renders with default props" name=" Renders with default props" time="0.003">
+<testsuites name="jest tests" tests="8" failures="0" time="0.13">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-09T05:53:57" time="0.05" tests="5">
+    <testcase classname=" Renders with default props" name=" Renders with default props" time="0.002">
     </testcase>
     <testcase classname=" handleDisabled should return false when currentNumber is 1 and Cell number is 1" name=" handleDisabled should return false when currentNumber is 1 and Cell number is 1" time="0">
     </testcase>
@@ -8,11 +8,17 @@
     </testcase>
     <testcase classname=" handleClick should toggle background color on clicking non disabled cell" name=" handleClick should toggle background color on clicking non disabled cell" time="0.005">
     </testcase>
-    <testcase classname=" handleClick should not toggle background color on clicking disabled cell" name=" handleClick should not toggle background color on clicking disabled cell" time="0.003">
+    <testcase classname=" handleClick should not toggle background color on clicking disabled cell" name=" handleClick should not toggle background color on clicking disabled cell" time="0.002">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-09T04:32:17" time="0.137" tests="1">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-09T05:53:57" time="0.037" tests="1">
+    <testcase classname=" Renders with default props" name=" Renders with default props" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-09T05:53:58" time="0.043" tests="2">
     <testcase classname=" Renders with default props" name=" Renders with default props" time="0.005">
+    </testcase>
+    <testcase classname=" Renders with onClick prop" name=" Renders with onClick prop" time="0.002">
     </testcase>
   </testsuite>
 </testsuites>
