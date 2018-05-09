@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders with default props 1`] = `
+.c0 {
+  height: 30px;
+  width: 45px;
+  background-color: #edf0f3;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  line-height: 30px;
+  border-radius: 5px;
+}
+
+<div
+  className="c0"
+>
+  1
+</div>
+`;
+
+exports[`Renders with hasBorder prop 1`] = `
+.c0 {
+  height: 30px;
+  width: 45px;
+  background-color: #edf0f3;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  line-height: 30px;
+  border-radius: 5px;
+  border: 2px solid #3ecedf;
+}
+
+<div
+  className="c0"
+>
+  1
+</div>
+`;
