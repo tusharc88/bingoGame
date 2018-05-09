@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import Cell from '../Cell/index';
+import GridRow from './GridRow/index';
 
 const GridWrapper = styled.div`
   transition: all 0.3s ease-in-out;
@@ -14,28 +14,6 @@ const GridWrapper = styled.div`
   }
 `;
 
-const GridRowWrapper = styled.div`
-  display: flex;
-  justify-content: space-between;
-`;
-
-// TODO: Get currentNumber from express call,
-// pass it to Cell using React Context Api
-// Get child number for each cell using random number generator, save in redux
-// check for number should not be repeated efficiently
-const GridRow = ({ matrixNum, rowNum }) => {
-  const cols = [];
-  for (let i = 0; i < matrixNum; i += 1) {
-    cols.push(
-      <Cell currentNumber={1} key={`${rowNum}-${i}`}>
-        {1}
-      </Cell>
-    );
-  }
-
-  return <GridRowWrapper>{cols}</GridRowWrapper>;
-};
-
 export const Grid = ({ matrixNum }) => {
   const rows = [];
   for (let i = 0; i < matrixNum; i += 1) {
@@ -43,11 +21,6 @@ export const Grid = ({ matrixNum }) => {
   }
 
   return <GridWrapper>{rows}</GridWrapper>;
-};
-
-GridRow.propTypes = {
-  matrixNum: PropTypes.number.isRequired,
-  rowNum: PropTypes.number.isRequired,
 };
 
 Grid.propTypes = {

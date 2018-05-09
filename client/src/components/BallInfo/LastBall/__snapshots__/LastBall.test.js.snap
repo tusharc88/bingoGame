@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders with default props 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c3 {
+  height: 30px;
+  width: 45px;
+  background-color: #edf0f3;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  line-height: 30px;
+  border-radius: 5px;
+  border: 2px solid #3ecedf;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-left: 25px;
+}
+
+.c2 {
+  font-size: 15px;
+  line-height: 30px;
+  margin-right: 25px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      Last Ball
+    </div>
+    <div
+      className="c3"
+    >
+      1
+    </div>
+  </div>
+</div>
+`;
