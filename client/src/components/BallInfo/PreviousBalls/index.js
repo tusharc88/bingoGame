@@ -29,11 +29,14 @@ const PreviousBalls = ({ dimension, numData, textVal }) => (
           {textInfo}
         </PreviousBallsTextWrapper>
         <PreviousBallsNumberDataWrapper>
-          {numberArray.map(num => (
-            <Tag dimension={dimension} key={num}>
-              {num}
-            </Tag>
-          ))}
+          {numberArray.map(
+            num =>
+              num && (
+                <Tag dimension={dimension} key={num}>
+                  {num}
+                </Tag>
+              )
+          )}
         </PreviousBallsNumberDataWrapper>
       </PreviousBallsInfoWrapper>
     )}
