@@ -7,8 +7,12 @@ import Cell from './index';
 storiesOf('Cell', module)
   .addDecorator(withKnobs)
   .addDecorator(centered)
-  .addWithInfo('default', <Cell>1</Cell>, () => (
-    <Cell currentNumber={number('currentNumber', 1)}>
-      {number('children', 1)}
-    </Cell>
-  ));
+  .addWithInfo(
+    'default',
+    <Cell currentNumber={number('currentNumber', 1)}>{1}</Cell>,
+    () => (
+      <Cell currentNumber={number('currentNumber', 1)}>
+        {number('children', 1)}
+      </Cell>
+    )
+  );

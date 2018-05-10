@@ -1,2 +1,6 @@
-<testsuites name="jest tests" tests="0" failures="0" time="0">
+<testsuites name="jest tests" tests="1" failures="0" time="0.212">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-10T00:31:26" time="0.212" tests="1">
+    <testcase classname=" Renders with default props" name=" Renders with default props" time="0.012">
+    </testcase>
+  </testsuite>
 </testsuites>

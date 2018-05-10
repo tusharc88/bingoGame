@@ -7,11 +7,15 @@ import Tag from './index';
 storiesOf('Tag', module)
   .addDecorator(withKnobs)
   .addDecorator(centered)
-  .addWithInfo('default', <Tag />, () => (
-    <Tag
-      dimension={number('dimension', 15)}
-      hasBorder={boolean('hasBorder', false)}
-    >
-      {number('children', 1)}
-    </Tag>
-  ));
+  .addWithInfo(
+    'default',
+    <Tag dimension={number('dimension', 15)}>{number('children', 1)}</Tag>,
+    () => (
+      <Tag
+        dimension={number('dimension', 15)}
+        hasBorder={boolean('hasBorder', false)}
+      >
+        {number('children', 1)}
+      </Tag>
+    )
+  );

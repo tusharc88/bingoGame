@@ -8,8 +8,12 @@ import Button from './index';
 storiesOf('Button', module)
   .addDecorator(withKnobs)
   .addDecorator(centered)
-  .addWithInfo('default', <Button />, () => (
-    <Button onClick={action('onClick')} disabled={boolean('disabled', false)}>
-      {text('children', 'Click Me!')}
-    </Button>
-  ));
+  .addWithInfo(
+    'default',
+    <Button>{text('children', 'Click Me!')}</Button>,
+    () => (
+      <Button onClick={action('onClick')} disabled={boolean('disabled', false)}>
+        {text('children', 'Click Me!')}
+      </Button>
+    )
+  );

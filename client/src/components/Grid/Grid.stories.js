@@ -7,6 +7,6 @@ import Grid from './index';
 storiesOf('Grid', module)
   .addDecorator(withKnobs)
   .addDecorator(centered)
-  .addWithInfo('default', <Grid />, () => (
+  .addWithInfo('default', <Grid matrixNum={number('matrixNum', 5)} />, () => (
     <Grid matrixNum={number('matrixNum', 5)} />
   ));

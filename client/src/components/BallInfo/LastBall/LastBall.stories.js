@@ -7,10 +7,18 @@ import LastBall from './index';
 storiesOf('BallInfo', module)
   .addDecorator(withKnobs)
   .addDecorator(centered)
-  .addWithInfo('LastBall', <LastBall />, () => (
+  .addWithInfo(
+    'LastBall',
     <LastBall
       dimension={number('dimension', 25)}
       numberData={number('numberData', 1)}
       textData={text('textData', 'Last Ball')}
-    />
-  ));
+    />,
+    () => (
+      <LastBall
+        dimension={number('dimension', 25)}
+        numberData={number('numberData', 1)}
+        textData={text('textData', 'Last Ball')}
+      />
+    )
+  );

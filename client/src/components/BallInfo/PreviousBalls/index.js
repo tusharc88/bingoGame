@@ -12,12 +12,13 @@ const PreviousBallsInfoWrapper = styled.div`
 const PreviousBallsTextWrapper = styled.div`
   font-size: ${props => `${props.dimension} px`}
   width: 95%;
+  margin: 10px;
 `;
 
 const PreviousBallsNumberDataWrapper = styled.div`
   flex: 1;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 `;
 
 const PreviousBalls = ({ dimension, numData, textVal }) => (
@@ -28,7 +29,11 @@ const PreviousBalls = ({ dimension, numData, textVal }) => (
           {textInfo}
         </PreviousBallsTextWrapper>
         <PreviousBallsNumberDataWrapper>
-          {numberArray.map(num => <Tag dimension={dimension}>{num}</Tag>)}
+          {numberArray.map(num => (
+            <Tag dimension={dimension} key={num}>
+              {num}
+            </Tag>
+          ))}
         </PreviousBallsNumberDataWrapper>
       </PreviousBallsInfoWrapper>
     )}
