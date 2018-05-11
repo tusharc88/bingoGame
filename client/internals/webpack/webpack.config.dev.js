@@ -4,7 +4,7 @@ const merge = require('webpack-merge');
 const common = require('./webpack.config.common.js');
 
 module.exports = merge(common, {
-  devtool: 'eval',
+  devtool: 'source-map',
   devServer: {
     contentBase: path.resolve(__dirname, '../../dist'),
     host: '127.0.0.1',

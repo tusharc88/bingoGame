@@ -6,18 +6,12 @@ import {
 
 test('generateBingoCardNumbers', () => {
   const bingoCardNumbers = generateBingoCardNumbers(5);
-  expect(Object.keys(bingoCardNumbers)).toHaveLength(25);
-  expect(
-    Object.keys(bingoCardNumbers).every(val => val < 101 && val > 0)
-  ).toBeTruthy();
+  expect(bingoCardNumbers).toHaveLength(25);
+  expect(bingoCardNumbers.every(val => val < 101 && val > 0)).toBeTruthy();
 });
 
 test('generateUniqueRandomNumber', () => {
-  const mockPastNumbers = {
-    1: true,
-    8: true,
-    4: true,
-  };
+  const mockPastNumbers = [1, 8, 4];
   const uniqueRandomNumber = generateUniqueRandomNumber(mockPastNumbers);
 
   expect(uniqueRandomNumber).toBeGreaterThan(1);
@@ -28,21 +22,11 @@ test('generateUniqueRandomNumber', () => {
 });
 
 test('isBingo', () => {
-  const mockPastNumbers = {
-    1: true,
-    8: true,
-    4: true,
-  };
+  const mockPastNumbers = [1, 8, 4];
 
-  const mockBingoCardNumbersOne = {
-    1: true,
-    4: true,
-  };
+  const mockBingoCardNumbersOne = [1, 4];
 
-  const mockBingoCardNumbersTwo = {
-    1: true,
-    9: true,
-  };
+  const mockBingoCardNumbersTwo = [1, 9];
 
   expect(isBingo(mockPastNumbers, mockBingoCardNumbersOne)).toBeTruthy();
   expect(isBingo(mockPastNumbers, mockBingoCardNumbersTwo)).toBeFalsy();

@@ -1,14 +1,118 @@
-<testsuites name="jest tests" tests="4" failures="0" time="0.244">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-10T03:17:13" time="0.16" tests="3">
-    <testcase classname=" generateBingoCardNumbers" name=" generateBingoCardNumbers" time="0.001">
+<testsuites name="jest tests" tests="37" failures="0" time="7.561999999999999">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:18" time="0.407" tests="2">
+    <testcase classname=" initialState" name=" initialState" time="0.006">
+    </testcase>
+    <testcase classname=" get unique random numbers" name=" get unique random numbers" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:18" time="0.449" tests="2">
+    <testcase classname=" populateBingoCards" name=" populateBingoCards" time="0.012">
+    </testcase>
+    <testcase classname=" watchPopulateCards" name=" watchPopulateCards" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:18" time="0.555" tests="1">
+    <testcase classname=" Renders with default props" name=" Renders with default props" time="0.024">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:18" time="0.604" tests="1">
+    <testcase classname=" Renders with default props" name=" Renders with default props" time="0.053">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:18" time="0.575" tests="5">
+    <testcase classname=" Renders with default props" name=" Renders with default props" time="0.011">
+    </testcase>
+    <testcase classname=" handleDisabled should return false when currentNumber is 1 and Cell number is 1" name=" handleDisabled should return false when currentNumber is 1 and Cell number is 1" time="0.002">
+    </testcase>
+    <testcase classname=" handleDisabled should return true when currentNumber is 2 and Cell number is 1" name=" handleDisabled should return true when currentNumber is 2 and Cell number is 1" time="0.001">
+    </testcase>
+    <testcase classname=" handleClick should toggle background color on clicking non disabled cell" name=" handleClick should toggle background color on clicking non disabled cell" time="0.024">
+    </testcase>
+    <testcase classname=" handleClick should not toggle background color on clicking disabled cell" name=" handleClick should not toggle background color on clicking disabled cell" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:18" time="0.602" tests="1">
+    <testcase classname=" Renders with default props" name=" Renders with default props" time="0.045">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:18" time="0.66" tests="1">
+    <testcase classname=" Renders with default props" name=" Renders with default props" time="0.078">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:19" time="0.362" tests="2">
+    <testcase classname=" Renders with default props" name=" Renders with default props" time="0.03">
+    </testcase>
+    <testcase classname=" Renders with onClick prop" name=" Renders with onClick prop" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:19" time="0.207" tests="3">
+    <testcase classname=" generateBingoCardNumbers" name=" generateBingoCardNumbers" time="0.002">
     </testcase>
     <testcase classname=" generateUniqueRandomNumber" name=" generateUniqueRandomNumber" time="0.001">
     </testcase>
-    <testcase classname=" isBingo" name=" isBingo" time="0">
+    <testcase classname=" isBingo" name=" isBingo" time="0.001">
     </testcase>
   </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-10T03:17:13" time="0.084" tests="1">
-    <testcase classname=" Renders with default props" name=" Renders with default props" time="0.006">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:19" time="0.194" tests="2">
+    <testcase classname=" initialState" name=" initialState" time="0.001">
+    </testcase>
+    <testcase classname=" populated state" name=" populated state" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:19" time="0.202" tests="2">
+    <testcase classname=" selectIsBingo when true" name=" selectIsBingo when true" time="0.002">
+    </testcase>
+    <testcase classname=" selectIsBingo when false" name=" selectIsBingo when false" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:19" time="0.245" tests="2">
+    <testcase classname=" checkIsBingo" name=" checkIsBingo" time="0.006">
+    </testcase>
+    <testcase classname=" watchCheckBingo" name=" watchCheckBingo" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:19" time="0.353" tests="2">
+    <testcase classname=" Renders with default props" name=" Renders with default props" time="0.026">
+    </testcase>
+    <testcase classname=" Renders with hasBorder prop" name=" Renders with hasBorder prop" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:20" time="0.234" tests="2">
+    <testcase classname=" getNextNumber" name=" getNextNumber" time="0.004">
+    </testcase>
+    <testcase classname=" watchGetNextNumber" name=" watchGetNextNumber" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:20" time="0.185" tests="1">
+    <testcase classname=" getNextNumber" name=" getNextNumber" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:20" time="0.187" tests="2">
+    <testcase classname=" selectBingoCards" name=" selectBingoCards" time="0.003">
+    </testcase>
+    <testcase classname=" selectBingoCard" name=" selectBingoCard" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:20" time="0.185" tests="2">
+    <testcase classname=" initialState" name=" initialState" time="0.002">
+    </testcase>
+    <testcase classname=" isBingo true" name=" isBingo true" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:20" time="0.182" tests="1">
+    <testcase classname=" selectPastNumbers" name=" selectPastNumbers" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:20" time="0.174" tests="1">
+    <testcase classname=" populateCards" name=" populateCards" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:20" time="0.177" tests="1">
+    <testcase classname=" isBingo" name=" isBingo" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-11T03:55:20" time="0.823" tests="1">
+    <testcase classname=" Renders with default props" name=" Renders with default props" time="0.041">
     </testcase>
   </testsuite>
 </testsuites>

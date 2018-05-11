@@ -11,10 +11,7 @@ const CardsGridWrapper = styled.div`
 
 const CardsGrid = () => (
   <CardsGridWrapper>
-    <Grid matrixNum={5} />
-    <Grid matrixNum={5} />
-    <Grid matrixNum={5} />
-    <Grid matrixNum={5} />
+    {Array.from({ length: 4 }, (v, k) => <Grid matrixNum={5} key={k} />)}
   </CardsGridWrapper>
 );
 
