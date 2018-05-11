@@ -9,6 +9,7 @@ const common = require('./webpack.config.common.js');
 
 module.exports = merge(common, {
   devtool: 'source-map',
+  mode: process.env.NODE_ENV,
   entry: {
     app: path.resolve(__dirname, '../../src'),
     vendor: ['react', 'react-dom', 'redux', 'react-redux', 'babel-polyfill'],
