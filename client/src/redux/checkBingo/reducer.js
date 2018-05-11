@@ -3,7 +3,7 @@ export const initialState = {
   error: '',
 };
 
-export default (state, action) => {
+export default (state = initialState, action) => {
   switch (action.type) {
     case 'CHECK_BINGO_SUCCESS': {
       const isBingo = action.payload;

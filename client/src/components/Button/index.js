@@ -9,6 +9,7 @@ const ButtonWrapper = styled.div`
   border: 1px solid #989a9b;
   border-radius: 5px;
   background-color: #cdd2d4;
+  color: #FFF;
   text-align: center;
   vertical-align: middle;
   line-height: 35px;

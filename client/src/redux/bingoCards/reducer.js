@@ -5,7 +5,7 @@ export const initialState = {
   3: [],
 };
 
-export default (state, action) => {
+export default (state = initialState, action) => {
   switch (action.type) {
     case 'POPULATE_CARDS_SUCCESS': {
       const cardsWithNumbers = action.payload;
