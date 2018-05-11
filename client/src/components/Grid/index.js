@@ -19,17 +19,14 @@ const GridRowWrapper = styled.div`
   justify-content: space-between;
 `;
 
-// TODO: Get currentNumber from express call,
-// pass it to Cell using React Context Api
-// Get child number for each cell using random number generator, save in redux
-// check for number should not be repeated efficiently
-export const Grid = ({ matrixNum }) => (
+// TODO: Get currentNumber from express call / redux,
+export const Grid = ({ matrixNum, cardNumbers }) => (
   <GridWrapper>
     {Array.from({ length: matrixNum }, (rowVal, rowKey) => (
       <GridRowWrapper key={rowKey}>
         {Array.from({ length: matrixNum }, (colVal, colKey) => (
           <Cell currentNumber={1} key={`${rowKey}-${colKey}`}>
-            {1}
+            {cardNumbers[(rowKey + 1) * (colKey + 1) - 1]}
           </Cell>
         ))}
       </GridRowWrapper>
@@ -39,6 +36,7 @@ export const Grid = ({ matrixNum }) => (
 
 Grid.propTypes = {
   matrixNum: PropTypes.number.isRequired,
+  cardNumbers: PropTypes.array.isRequired,
 };
 
 export default Grid;
